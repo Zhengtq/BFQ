@@ -7,7 +7,7 @@
   <p>
   <b>BFQ</b> is a <b>face quality project</b> that could be useful in your project.
   </p>
-  <a href="https://github.com/krishdevdb/readme-template/stargazers"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/krishdevdb/readme-template?logo=Github&amp;style=for-the-badge">
+  <a href="https://github.com/Zhengtq/BFQ/stargazers"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/krishdevdb/readme-template?logo=Github&amp;style=for-the-badge">
 </a></div>
 
 # Table Of Contents
@@ -39,7 +39,6 @@
 
 *   Reliable
 
-[Back To Top][top]
 
 # Quick Start
 
@@ -59,7 +58,6 @@ mynet.load_model("sfnv2.bin");
 
 ```
 
-[Back To Top][top]
 
 # Installation
 
@@ -74,14 +72,12 @@ Very simple
 git clone git@github.com:Zhengtq/BFQ.git
 ```
 
-[Back To Top][top]
 
     
 ## Downloads
 
 *   Minified Version: v1.2.0.1 
 
-[Back To Top][top]
 
 ## Usage
 ```markdown
@@ -92,8 +88,6 @@ cmake ..
 make -j8
 ./examples/lession_11
 ```
-
-
 
 
 > Know Any Other Solutions Or Have Any More Ideas Kindly. Give A [Issue][issues] Or If Possible Submit A [Pull Request](https://github.com/Zhengtq/BFQ/pulls)
