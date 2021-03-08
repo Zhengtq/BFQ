@@ -1,0 +1,184 @@
+7767517
+182 195
+Input                layer_0 0 1 blob_0 0=80 1=80 2=3
+Convolution          layer_2 1 1 blob_0 blob_1 0=24 1=3 2=1 3=2 4=0 14=0 15=1 16=1 7=1 5=0 6=648
+BatchNorm            layer_7 1 1 blob_1 blob_2 0=24 1=1e-3
+ReLU                 layer_8 1 1 blob_2 blob_3 0=0.0
+Pooling              layer_9 1 1 blob_3 blob_4 0=0 1=3 2=2 3=0 13=0 14=1 15=1 4=0 5=0
+Convolution          layer_11 1 1 blob_4 blob_5 0=24 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=576
+BatchNorm            layer_16 1 1 blob_5 blob_6 0=24 1=1e-3
+ReLU                 layer_17 1 1 blob_6 blob_7 0=0.0
+ConvolutionDepthWise layer_19 1 1 blob_7 blob_8 0=24 1=3 2=1 3=2 4=0 14=0 15=1 16=1 7=24 5=0 6=216
+BatchNorm            layer_24 1 1 blob_8 blob_9 0=24 1=1e-3
+Convolution          layer_26 1 1 blob_9 blob_10 0=24 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=576
+BatchNorm            layer_31 1 1 blob_10 blob_11 0=24 1=1e-3
+ReLU                 layer_32 1 1 blob_11 blob_12 0=0.0
+ConvolutionDepthWise layer_34 1 1 blob_4 blob_13 0=24 1=3 2=1 3=2 4=0 14=0 15=1 16=1 7=24 5=0 6=216
+BatchNorm            layer_39 1 1 blob_13 blob_14 0=24 1=1e-3
+Convolution          layer_41 1 1 blob_14 blob_15 0=24 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=576
+BatchNorm            layer_46 1 1 blob_15 blob_16 0=24 1=1e-3
+ReLU                 layer_47 1 1 blob_16 blob_17 0=0.0
+ShuffleTwo           layer_48 2 1 blob_17 blob_12 blob_18
+Split                layer_52 1 2 blob_18 blob_19 blob_20
+Convolution          layer_54 1 1 blob_19 blob_21 0=24 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=576
+BatchNorm            layer_59 1 1 blob_21 blob_22 0=24 1=1e-3
+ReLU                 layer_60 1 1 blob_22 blob_23 0=0.0
+ConvolutionDepthWise layer_62 1 1 blob_23 blob_24 0=24 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=24 5=0 6=216
+BatchNorm            layer_67 1 1 blob_24 blob_25 0=24 1=1e-3
+Convolution          layer_69 1 1 blob_25 blob_26 0=24 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=576
+BatchNorm            layer_74 1 1 blob_26 blob_27 0=24 1=1e-3
+ReLU                 layer_75 1 1 blob_27 blob_28 0=0.0
+ShuffleTwo           layer_76 2 1 blob_28 blob_20 blob_29
+Split                layer_80 1 2 blob_29 blob_30 blob_31
+Convolution          layer_82 1 1 blob_30 blob_32 0=24 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=576
+BatchNorm            layer_87 1 1 blob_32 blob_33 0=24 1=1e-3
+ReLU                 layer_88 1 1 blob_33 blob_34 0=0.0
+ConvolutionDepthWise layer_90 1 1 blob_34 blob_35 0=24 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=24 5=0 6=216
+BatchNorm            layer_95 1 1 blob_35 blob_36 0=24 1=1e-3
+Convolution          layer_97 1 1 blob_36 blob_37 0=24 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=576
+BatchNorm            layer_102 1 1 blob_37 blob_38 0=24 1=1e-3
+ReLU                 layer_103 1 1 blob_38 blob_39 0=0.0
+ShuffleTwo           layer_104 2 1 blob_39 blob_31 blob_40
+Split                layer_108 1 2 blob_40 blob_41 blob_42
+Convolution          layer_110 1 1 blob_41 blob_43 0=24 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=576
+BatchNorm            layer_115 1 1 blob_43 blob_44 0=24 1=1e-3
+ReLU                 layer_116 1 1 blob_44 blob_45 0=0.0
+ConvolutionDepthWise layer_118 1 1 blob_45 blob_46 0=24 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=24 5=0 6=216
+BatchNorm            layer_123 1 1 blob_46 blob_47 0=24 1=1e-3
+Convolution          layer_125 1 1 blob_47 blob_48 0=24 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=576
+BatchNorm            layer_130 1 1 blob_48 blob_49 0=24 1=1e-3
+ReLU                 layer_131 1 1 blob_49 blob_50 0=0.0
+Concat               layer_132 2 1 blob_50 blob_42 blob_51 0=0
+Convolution          layer_134 1 1 blob_51 blob_52 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_139 1 1 blob_52 blob_53 0=48 1=1e-3
+ReLU                 layer_140 1 1 blob_53 blob_54 0=0.0
+ConvolutionDepthWise layer_142 1 1 blob_54 blob_55 0=48 1=3 2=1 3=2 4=0 14=0 15=1 16=1 7=48 5=0 6=432
+BatchNorm            layer_147 1 1 blob_55 blob_56 0=48 1=1e-3
+Convolution          layer_149 1 1 blob_56 blob_57 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_154 1 1 blob_57 blob_58 0=48 1=1e-3
+ReLU                 layer_155 1 1 blob_58 blob_59 0=0.0
+ConvolutionDepthWise layer_157 1 1 blob_51 blob_60 0=48 1=3 2=1 3=2 4=0 14=0 15=1 16=1 7=48 5=0 6=432
+BatchNorm            layer_162 1 1 blob_60 blob_61 0=48 1=1e-3
+Convolution          layer_164 1 1 blob_61 blob_62 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_169 1 1 blob_62 blob_63 0=48 1=1e-3
+ReLU                 layer_170 1 1 blob_63 blob_64 0=0.0
+ShuffleTwo           layer_171 2 1 blob_64 blob_59 blob_65
+Split                layer_175 1 2 blob_65 blob_66 blob_67
+Convolution          layer_177 1 1 blob_66 blob_68 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_182 1 1 blob_68 blob_69 0=48 1=1e-3
+ReLU                 layer_183 1 1 blob_69 blob_70 0=0.0
+ConvolutionDepthWise layer_185 1 1 blob_70 blob_71 0=48 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=48 5=0 6=432
+BatchNorm            layer_190 1 1 blob_71 blob_72 0=48 1=1e-3
+Convolution          layer_192 1 1 blob_72 blob_73 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_197 1 1 blob_73 blob_74 0=48 1=1e-3
+ReLU                 layer_198 1 1 blob_74 blob_75 0=0.0
+ShuffleTwo           layer_199 2 1 blob_75 blob_67 blob_76
+Split                layer_203 1 2 blob_76 blob_77 blob_78
+Convolution          layer_205 1 1 blob_77 blob_79 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_210 1 1 blob_79 blob_80 0=48 1=1e-3
+ReLU                 layer_211 1 1 blob_80 blob_81 0=0.0
+ConvolutionDepthWise layer_213 1 1 blob_81 blob_82 0=48 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=48 5=0 6=432
+BatchNorm            layer_218 1 1 blob_82 blob_83 0=48 1=1e-3
+Convolution          layer_220 1 1 blob_83 blob_84 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_225 1 1 blob_84 blob_85 0=48 1=1e-3
+ReLU                 layer_226 1 1 blob_85 blob_86 0=0.0
+ShuffleTwo           layer_227 2 1 blob_86 blob_78 blob_87
+Split                layer_231 1 2 blob_87 blob_88 blob_89
+Convolution          layer_233 1 1 blob_88 blob_90 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_238 1 1 blob_90 blob_91 0=48 1=1e-3
+ReLU                 layer_239 1 1 blob_91 blob_92 0=0.0
+ConvolutionDepthWise layer_241 1 1 blob_92 blob_93 0=48 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=48 5=0 6=432
+BatchNorm            layer_246 1 1 blob_93 blob_94 0=48 1=1e-3
+Convolution          layer_248 1 1 blob_94 blob_95 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_253 1 1 blob_95 blob_96 0=48 1=1e-3
+ReLU                 layer_254 1 1 blob_96 blob_97 0=0.0
+ShuffleTwo           layer_255 2 1 blob_97 blob_89 blob_98
+Split                layer_259 1 2 blob_98 blob_99 blob_100
+Convolution          layer_261 1 1 blob_99 blob_101 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_266 1 1 blob_101 blob_102 0=48 1=1e-3
+ReLU                 layer_267 1 1 blob_102 blob_103 0=0.0
+ConvolutionDepthWise layer_269 1 1 blob_103 blob_104 0=48 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=48 5=0 6=432
+BatchNorm            layer_274 1 1 blob_104 blob_105 0=48 1=1e-3
+Convolution          layer_276 1 1 blob_105 blob_106 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_281 1 1 blob_106 blob_107 0=48 1=1e-3
+ReLU                 layer_282 1 1 blob_107 blob_108 0=0.0
+ShuffleTwo           layer_283 2 1 blob_108 blob_100 blob_109
+Split                layer_287 1 2 blob_109 blob_110 blob_111
+Convolution          layer_289 1 1 blob_110 blob_112 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_294 1 1 blob_112 blob_113 0=48 1=1e-3
+ReLU                 layer_295 1 1 blob_113 blob_114 0=0.0
+ConvolutionDepthWise layer_297 1 1 blob_114 blob_115 0=48 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=48 5=0 6=432
+BatchNorm            layer_302 1 1 blob_115 blob_116 0=48 1=1e-3
+Convolution          layer_304 1 1 blob_116 blob_117 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_309 1 1 blob_117 blob_118 0=48 1=1e-3
+ReLU                 layer_310 1 1 blob_118 blob_119 0=0.0
+ShuffleTwo           layer_311 2 1 blob_119 blob_111 blob_120
+Split                layer_315 1 2 blob_120 blob_121 blob_122
+Convolution          layer_317 1 1 blob_121 blob_123 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_322 1 1 blob_123 blob_124 0=48 1=1e-3
+ReLU                 layer_323 1 1 blob_124 blob_125 0=0.0
+ConvolutionDepthWise layer_325 1 1 blob_125 blob_126 0=48 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=48 5=0 6=432
+BatchNorm            layer_330 1 1 blob_126 blob_127 0=48 1=1e-3
+Convolution          layer_332 1 1 blob_127 blob_128 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_337 1 1 blob_128 blob_129 0=48 1=1e-3
+ReLU                 layer_338 1 1 blob_129 blob_130 0=0.0
+ShuffleTwo           layer_339 2 1 blob_130 blob_122 blob_131
+Split                layer_343 1 2 blob_131 blob_132 blob_133
+Convolution          layer_345 1 1 blob_132 blob_134 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_350 1 1 blob_134 blob_135 0=48 1=1e-3
+ReLU                 layer_351 1 1 blob_135 blob_136 0=0.0
+ConvolutionDepthWise layer_353 1 1 blob_136 blob_137 0=48 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=48 5=0 6=432
+BatchNorm            layer_358 1 1 blob_137 blob_138 0=48 1=1e-3
+Convolution          layer_360 1 1 blob_138 blob_139 0=48 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=2304
+BatchNorm            layer_365 1 1 blob_139 blob_140 0=48 1=1e-3
+ReLU                 layer_366 1 1 blob_140 blob_141 0=0.0
+Concat               layer_367 2 1 blob_141 blob_133 blob_142 0=0
+Convolution          layer_369 1 1 blob_142 blob_143 0=96 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=9216
+BatchNorm            layer_374 1 1 blob_143 blob_144 0=96 1=1e-3
+ReLU                 layer_375 1 1 blob_144 blob_145 0=0.0
+ConvolutionDepthWise layer_377 1 1 blob_145 blob_146 0=96 1=3 2=1 3=2 4=1 14=1 15=1 16=1 7=96 5=0 6=864
+BatchNorm            layer_382 1 1 blob_146 blob_147 0=96 1=1e-3
+Convolution          layer_384 1 1 blob_147 blob_148 0=96 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=9216
+BatchNorm            layer_389 1 1 blob_148 blob_149 0=96 1=1e-3
+ReLU                 layer_390 1 1 blob_149 blob_150 0=0.0
+ConvolutionDepthWise layer_392 1 1 blob_142 blob_151 0=96 1=3 2=1 3=2 4=1 14=1 15=1 16=1 7=96 5=0 6=864
+BatchNorm            layer_397 1 1 blob_151 blob_152 0=96 1=1e-3
+Convolution          layer_399 1 1 blob_152 blob_153 0=96 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=9216
+BatchNorm            layer_404 1 1 blob_153 blob_154 0=96 1=1e-3
+ReLU                 layer_405 1 1 blob_154 blob_155 0=0.0
+ShuffleTwo           layer_406 2 1 blob_155 blob_150 blob_156
+Split                layer_410 1 2 blob_156 blob_157 blob_158
+Convolution          layer_412 1 1 blob_157 blob_159 0=96 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=9216
+BatchNorm            layer_417 1 1 blob_159 blob_160 0=96 1=1e-3
+ReLU                 layer_418 1 1 blob_160 blob_161 0=0.0
+ConvolutionDepthWise layer_420 1 1 blob_161 blob_162 0=96 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=96 5=0 6=864
+BatchNorm            layer_425 1 1 blob_162 blob_163 0=96 1=1e-3
+Convolution          layer_427 1 1 blob_163 blob_164 0=96 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=9216
+BatchNorm            layer_432 1 1 blob_164 blob_165 0=96 1=1e-3
+ReLU                 layer_433 1 1 blob_165 blob_166 0=0.0
+ShuffleTwo           layer_434 2 1 blob_166 blob_158 blob_167
+Split                layer_438 1 2 blob_167 blob_168 blob_169
+Convolution          layer_440 1 1 blob_168 blob_170 0=96 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=9216
+BatchNorm            layer_445 1 1 blob_170 blob_171 0=96 1=1e-3
+ReLU                 layer_446 1 1 blob_171 blob_172 0=0.0
+ConvolutionDepthWise layer_448 1 1 blob_172 blob_173 0=96 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=96 5=0 6=864
+BatchNorm            layer_453 1 1 blob_173 blob_174 0=96 1=1e-3
+Convolution          layer_455 1 1 blob_174 blob_175 0=96 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=9216
+BatchNorm            layer_460 1 1 blob_175 blob_176 0=96 1=1e-3
+ReLU                 layer_461 1 1 blob_176 blob_177 0=0.0
+ShuffleTwo           layer_462 2 1 blob_177 blob_169 blob_178
+Split                layer_466 1 2 blob_178 blob_179 blob_180
+Convolution          layer_468 1 1 blob_179 blob_181 0=96 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=9216
+BatchNorm            layer_473 1 1 blob_181 blob_182 0=96 1=1e-3
+ReLU                 layer_474 1 1 blob_182 blob_183 0=0.0
+ConvolutionDepthWise layer_476 1 1 blob_183 blob_184 0=96 1=3 2=1 3=1 4=1 14=1 15=1 16=1 7=96 5=0 6=864
+BatchNorm            layer_481 1 1 blob_184 blob_185 0=96 1=1e-3
+Convolution          layer_483 1 1 blob_185 blob_186 0=96 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=9216
+BatchNorm            layer_488 1 1 blob_186 blob_187 0=96 1=1e-3
+ReLU                 layer_489 1 1 blob_187 blob_188 0=0.0
+Concat               layer_490 2 1 blob_188 blob_180 blob_189 0=0
+Convolution          layer_492 1 1 blob_189 blob_190 0=1024 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=0 6=196608
+BatchNorm            layer_497 1 1 blob_190 blob_191 0=1024 1=1e-3
+ReLU                 layer_498 1 1 blob_191 blob_192 0=0.0
+Pooling              layer_499 1 1 blob_192 blob_193 0=1 1=3 2=2 3=0 13=0 14=0 15=0 4=0 5=0
+Convolution          layer_503 1 1 blob_193 blob_194 0=1 1=1 2=1 3=1 4=0 14=0 15=0 16=0 7=1 5=1 6=1024
