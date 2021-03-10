@@ -59,8 +59,6 @@ mynet.load_model("sfnv2.bin");
 
 # Installation
 
-Very simple
-
 
 ## Package Managers
 
