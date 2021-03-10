@@ -6,9 +6,7 @@
   <h5>A Face Quality project for everyone</h5>
   <p>
   <b>BFQ</b> is a <b>face quality project</b> that could be useful in your project.
-  </p>
-  <a href="https://github.com/Zhengtq/BFQ/stargazers"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/krishdevdb/readme-template?logo=Github&amp;style=for-the-badge">
-</a></div>
+  </p></div>
 
 # Table Of Contents
 
@@ -97,7 +95,6 @@ make -j8
 
 | ![Zhengtq](https://github.com/Zhengtq) |
 | :----------------------------------------------------------: |
-| Krish |
 | [Github](https://github.com/Zhengtq) |
 | [Email](mailto:1553866519@qq.com) |
 
