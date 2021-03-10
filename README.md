@@ -16,11 +16,7 @@
 
 *   [Installation](#installation)
 
-    *   [Package Managers](#package-managers)
-
 *   [Usage](#usage)
-
-*   [Support Us](#support-us)
 
 *   [Authors](#authors)
 
@@ -70,7 +66,7 @@ git clone git@github.com:Zhengtq/BFQ.git
 
 
     
-## Downloads
+## Version 
 
 *   Minified Version: v1.2.0.1 
 
