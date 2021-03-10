@@ -93,7 +93,7 @@ make -j8
 
 # Authors
 
-| ![Zhengtq](https://github.com/Zhengtq) |
+| [Zhengtq](https://github.com/Zhengtq) |
 | :----------------------------------------------------------: |
 | [Github](https://github.com/Zhengtq) |
 | [Email](mailto:1553866519@qq.com) |
