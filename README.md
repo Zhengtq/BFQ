@@ -1,6 +1,6 @@
-<div align="center" id="top"><p><a href="https://app.codacy.com/gh/krishdevdb/readme-template/dashboard"><img src="https://img.shields.io/codacy/grade/1a76cd48727846d7804203b3f7ff66ed?style=flat-square"></a>
-    <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/readme-template?style=flat-square"></a>
-    <a href="#status"><img src="https://img.shields.io/badge/Maintained-yes-green.svg?style=flat-square"></a></p><img height="100px" width="100px" src="./logo.png">
+<div align="center" id="top"><p>
+    <a href="#status"><img src="https://img.shields.io/badge/Maintained-yes-green.svg?style=flat-square"></a>
+    </p>
   <br>
   <h1>BFQ</h1>
   <h5>A Face Quality project for everyone</h5>
