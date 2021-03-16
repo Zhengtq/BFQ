@@ -61,7 +61,7 @@ mynet.load_model("sfnv2.bin");
 #### Just Clone 
 
 ```bash
-git clone git@github.com:Zhengtq/BFQ.git
+git clone https://github.com/Zhengtq/BFQ.git 
 ```
 
 
