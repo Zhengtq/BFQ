@@ -73,7 +73,7 @@ git clone https://github.com/Zhengtq/BFQ.git
 
 ## Usage
 ```markdown
-git clone git@github.com:Zhengtq/BFQ.git
+git clone https://github.com/Zhengtq/BFQ.git 
 cd BFQ
 mkdir build
 cmake ..
